@@ -1,0 +1,99 @@
+@import url(../footer/footer.css);
+@import url(../header/header.css);
+@import url(../main/main.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.content{
+    .content_img{
+        background-image: url(../../images/picture2.png);
+        gap: 279px;
+        padding: 111px 200px ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        h6{
+            font-size: 40px;
+        }
+        .content_box{
+            padding: 78px 70px;
+            background-color: white;
+            display: flex;
+            .ibm{
+                width: 100px;
+                height: 100px;
+            }
+            .content-right{
+                margin-left: 50px;
+                padding: 7px 284px 0px 0pc ;
+                display: flex;
+                flex-direction: column;
+                gap: 17px;
+                h6{
+                    font-size: 21px;
+                }
+                p{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:447px) {
+    .content{
+        .content_img{
+            padding: 30px;
+            gap: 100px;
+            h6{
+                font-size: 20px;
+            }
+            .content_box{
+                padding: 30px;
+                .content-right{
+                    padding: 10px;
+                    margin-left: 0px;
+                    h6{
+                        font-size: 10px;
+                    }
+                    p{
+                        font-size: 9px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:448px) and (max-width:769) {
+    .content{
+        .content_img{
+            padding: 50px;
+            gap: 100px;
+            h6{
+                font-size: 10px;
+            }
+            .content_box{
+                padding: 30px;
+                .content-right{
+                    padding: 10px;
+                    margin-left: 0px;
+                    h6{
+                        font-size: 10px;
+                    }
+                    p{
+                        font-size: 9px;
+                    }
+                }
+            }
+        }
+    }
+}
+
